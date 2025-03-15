@@ -1,11 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Reddit Auto-Translation Trimmer",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Removes the '?tl=' parameter from Reddit URLs.",
   "permissions": ["webRequest", "webRequestBlocking"],
   "background": {
     "scripts": ["background.js"]
-  },
-  "host_permissions": ["*://www.reddit.com/*"]
+  }
 }
